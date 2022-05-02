@@ -24,7 +24,7 @@
     # Write your code below this line
     
 def three_number_average(x, y, z):
-    answer = (x + y + z / 3)
+    answer = float(int(x) + int(y) + int(z) / 3)
     return answer
 
 print(three_number_average(1,3,4))
